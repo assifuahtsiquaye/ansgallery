@@ -366,6 +366,10 @@ button img {
   border-radius: 10px;
 }
 
+.statement {
+    font-size: larger;
+  }
+
 /* ABOUT & CONTACT */
 .about, .contact {
   padding: 20px;
@@ -413,6 +417,8 @@ button img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 a {
@@ -540,7 +546,8 @@ footer {
   }
 
   .statement {
-    font-size: small;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    border: 1px solid red;
   }
 
   .portfolio-slide {
@@ -552,5 +559,24 @@ footer {
   width: 250px; height: 32vh;
   border-radius: 10px;
   /* border: 1px solid red; */
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav-links a:nth-child(2) {
+    display:none
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
