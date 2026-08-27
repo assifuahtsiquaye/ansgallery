@@ -547,7 +547,7 @@ footer {
 
   .statement {
     font-size: clamp(1rem, 2vw, 1.5rem);
-    border: 1px solid red;
+    /**border: 1px solid red;*/
   }
 
   .portfolio-slide {
